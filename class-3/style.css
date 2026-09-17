@@ -1,0 +1,141 @@
+body {
+  background-color: #b8c6de;
+  font-family: "Courier Prime", monospace;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 24px 120px;
+}
+
+h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 56px;
+  font-weight: 700;
+  font-style: italic;
+  color: #d98301;
+}
+
+.negative {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #0e3363;
+  border-top: 1px solid #ff1e00dc;
+  border-bottom: 1px solid #ff1e00dc;
+}
+
+.lighted {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  color: #296cca;
+  text-align: right;
+  margin: 32px;
+}
+
+.flesh {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 26px;
+  color: #b82525;
+  text-align: center;
+  line-height: 1.3;
+  margin: 40px 0 10px;
+}
+
+.belongs {
+  font-size: 13px;
+  color: #5e6774;
+  text-align: center;
+  font-weight: 400;
+}
+
+.room {
+  font-size: 21px;
+  color: #8b4e1f;
+  text-indent: 0;
+}
+
+.glow {
+  background-color: #682b03;
+  padding: 18px 22px;
+  border-radius: 3px;
+  color: #f8f396;
+}
+
+.plain {
+  color: #474e57;
+}
+
+.inventory {
+  border-left: 3px solid #1759bd;
+  padding-left: 18px;
+  color: #3f4244;
+}
+
+.portrait {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: #c47009;
+}
+
+
+.hum {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #751b04;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.shape {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #005b50;
+}
+
+.radiance {
+  color: #ffb700;
+  text-shadow: 0 0 14px #e35a1f;
+}
+
+.fresh {
+  background-color: #fca737;
+  color: #104094;
+  padding: 1px 7px;
+  border-radius: 12px;
+}
+
+.melodious {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.fungus {
+  color: #ffb700;
+  background-color: #3a3f48;
+}
+
+.silent {
+  letter-spacing: 8px;
+  color: #5e6774;
+  font-weight: 400;
+}
+
+.aside {
+  color: #7f8894;
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #0066ff;
+  font-size: 12px;
+  color: #2a3b53;
+}
