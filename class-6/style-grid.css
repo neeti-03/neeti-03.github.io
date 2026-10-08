@@ -1,7 +1,7 @@
 .first {
     background-color: rgb(224, 157, 2);
     display: grid;
-    /*Add grid-template-rows and grid-template-columns*/
+    /*Add 4 grid-template-rows and 4 grid-template-columns*/
     gap: 10px;
     padding: 10px;
 }
