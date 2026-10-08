@@ -1,0 +1,81 @@
+.box, .item {
+    position: absolute;
+    background: #179c9b;
+    border: 1px solid #0d4f4f;
+}
+
+.diamond {
+    position: relative;
+    width: 345px;
+    height: 360px;
+    background-color: aliceblue;
+}
+
+.box { 
+    width: 100px; 
+    height: 62px; 
+}
+
+.b1 { 
+    top: 0;     
+    left: 131px; 
+}
+.b2 { 
+    top: 75px;  
+    left: 50px;  
+}
+.b3 { 
+    top: 75px;  
+    left: 211px; 
+}
+.b4 { 
+    top: 149px; 
+    left: 0;     
+}
+.b5 { 
+    top: 149px; 
+    left: 245px; 
+}
+.b6 { 
+    top: 225px; 
+    left: 50px;  
+}
+.b7 { 
+    top: 225px; 
+    left: 211px; 
+}
+.b8 { 
+    top: 298px; 
+    left: 131px; 
+}
+
+
+.nav {
+  position: relative;
+  margin-top: 150px;
+  width: 600px;
+  height: 75px;
+  background: #ee8133;
+  border: 1px solid #0d4f4f;
+}
+.item {
+  top: 17px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  font: 600 20px/30px sans-serif;
+}
+.name  { 
+    left: 17px;  
+}
+.about { 
+    right: 249px; 
+}
+.work  { 
+    right: 130px; 
+}
+.play  { 
+    right: 12px;  
+}

@@ -1,0 +1,96 @@
+.block{
+    border: 2px solid teal;
+    display: block;
+}
+
+p.inline{
+    border: 2px dashed plum;
+    display: inline;
+}
+
+
+p.inblock{
+    border: 2px dashed rgb(193, 99, 84);
+    display: inline-block;
+}
+
+p.solid{
+    border: 2px solid teal;
+}
+
+p.dashedbottom{
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: blue;
+}
+
+div.static{
+    position: static;
+    width: 200px;
+    height: 50px;
+}
+
+div.relative-1 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 20px;              
+    left: 80px;            
+    background: lavender;
+}
+
+div.relative-2 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 2em;          
+    left: 50%;             
+    background: honeydew;
+}
+
+div.relative-3 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    margin-left: 300px;     
+    right: 100px;          
+    top: -10px;         
+    background: mistyrose;
+}
+
+div.relative-4 {
+    width: 200px;
+    height: 50px;
+    position: relative;    
+    background: lightyellow;
+}
+
+div.fixed {
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    top: 10px;              
+    right: 10px;            
+    background: lightcyan;
+}
+
+body {
+    min-height: 200vh;     
+}
+
+div.parent {
+    width: 400px;
+    height: 150px;
+    position: relative;     
+    left: 80px;
+    background: whitesmoke;
+}
+
+div.absolute {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;           
+    right: 10px;           
+    background: peachpuff;
+}

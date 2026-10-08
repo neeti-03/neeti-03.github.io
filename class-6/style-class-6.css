@@ -1,0 +1,27 @@
+body {
+    width: 1020 px;
+    margin: 20px;
+}
+.first {
+    background-color: rgb(199, 228, 255);
+    gap: 30px;
+    /*Try using display, align-items, and justify-content*/
+}
+
+.second {
+    background-color: rgb(199, 228, 255);
+    gap: 30px;
+    /*Try using display, align-items, and justify-content*/
+}
+
+.third {
+    background-color: rgb(199, 228, 255);
+    gap: 30px;
+    /*Try using display, align-items, and justify-content*/
+}
+
+.child{
+    background-color: rgb(224, 157, 2);
+    width: 100px;
+    height: 100px;
+}
