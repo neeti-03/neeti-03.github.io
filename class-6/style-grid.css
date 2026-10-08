@@ -1,0 +1,52 @@
+.first {
+    background-color: rgb(224, 157, 2);
+    display: grid;
+    /*Add grid-template-rows and grid-template-columns*/
+    gap: 10px;
+    padding: 10px;
+}
+
+.child {
+    margin: 0;
+}
+
+.one   { 
+    grid-column-start: 1; 
+    grid-column-end: 3;     
+    grid-row-start: 1;
+    grid-column-end: 2; 
+    background-color: tomato; 
+}
+
+.two   { 
+    /*Add grid-column-start/end and grid-row-start/end*/    
+    background-color: gold; 
+}
+
+.three {  
+    background-color: mediumseagreen; 
+}
+
+.four  { 
+    background-color: hotpink; 
+}
+
+.five  { 
+    background-color: royalblue; 
+}
+
+.six   { 
+    background-color: orchid; 
+}
+
+.seven { 
+    background-color: turquoise; 
+}
+
+.eight { 
+    background-color: coral; 
+}
+
+.nine  {  
+    background-color: slateblue; 
+}
