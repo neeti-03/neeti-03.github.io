@@ -4,18 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design, Graphics, and Theory</title>
+    <!--Linking my fonts from Google Fonts:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>COM 370 Weekly Projects Update</h1>
-    <h2>In-Class Exercises</h2>
-    <ul>
-    <li><a href="class-1/class-1.html">Class 1 Website!</a></li> 
-    <li><a href="class-2/class-2.html">Class 2 Website!</a></li>
-    <li><a href="class-3/class-3.html">Class 3 Website!</a></li>
-    <li><a href="class-4/class-4.html">Class 4 Website!</a></li>
-    <li><a href="class-5/class-5.html">Class 5 Website!</a></li>
-    <li><a href="class-6/class-6.html">Class 6 Website!</a></li>
-    <li><a href="cats.html">CATS</a></li>
-    </ul>
+<!--Creating navigation for my website-->
+    <header class="site-header">
+        <!--space separated list for class-->
+        <nav class="container nav">
+            <a class="logo" href="#top">COM 370</a>
+            <ul class="nav-links">
+                <li><a href="#exercises">Weekly Exercises</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--Creating the main section and giving it a class and ID-->    
+    <main class="container" id="top">
+        <!--Creating a section about the class-->
+        <section class="hero" id="about">
+            <h1>COM 370 Weekly Exercises</h1>
+            <p>Each week has an associated coding topic that we've developed exercises for!</p>
+            <a class="btn" href="#exercises">See our in-class exercises</a>
+        </section>
+        
+        <!--Creating cards for each class-->
+        <section class="exercises" id="exercises">
+            <h2>In-Class Exercises</h2>
+            <div class="cards">
+                <a class="card" href="class-1/class-1.html">Class 1</a>
+                <a class="card" href="class-2/class-2.html">Class 2</a>
+                <a class="card" href="class-3/class-3.html">Class 3</a>
+                <a class="card" href="class-4/class-4.html">Class 4</a>
+                <a class="card" href="class-5/class-5.html">Class 5</a>
+                <a class="card" href="class-6/class-6.html">Class 6</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
