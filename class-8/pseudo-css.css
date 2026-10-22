@@ -1,0 +1,28 @@
+a {
+    color: aliceblue;
+    background-color: blue;
+    font-size: 24px;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+a:active {
+    color: aliceblue;
+    background-color: green;
+}
+
+a:visited {
+    color: aliceblue;
+    background-color: grey;
+}
+
+.secret {
+    display: none;
+}
+
+a:hover .secret {
+    display: inline;
+}

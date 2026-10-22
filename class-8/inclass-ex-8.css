@@ -1,0 +1,24 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    cursor: pointer;
+}
+
+/*Create a unique default style for each individual button*/
+
+button.btn-future {
+    background-color: aquamarine;
+}
+
+/*Create a unique style for each individual button's hover state*/
+
+button.btn-future:hover {
+    background-color: aqua;
+}

@@ -1,0 +1,61 @@
+div {
+    margin: 20px;
+    padding: 20px;
+    height: 75px;
+    width: 75px;
+    
+}
+
+/*Setting which transitions to change; Setting a duration; Setting */
+
+.sunrise {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(180, 221, 230);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+div.sunrise:hover {
+    background-color: rgb(253, 201, 44);
+    align-items: flex-start;
+}
+
+.sunset {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(253, 131, 10);
+    transition-property: background-color, border-radius;
+    transition-duration: 0.5s, 5s;
+    transition-timing-function: linear;
+}
+
+div.sunset:hover {
+    background-color: rgb(17, 77, 150);
+    color: aliceblue;
+    border-radius: 50%;
+    align-items: flex-end;
+}
+
+/*Time-delay*/
+div.time-delay {
+    background-color: rgb(190, 157, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: letter-spacing;
+    letter-spacing: 0px;
+    transition-delay: 2s;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+div.time-delay:hover {
+    letter-spacing: 8px;
+}
+
+
+

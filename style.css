@@ -34,7 +34,7 @@ h1, h2, h3 {
     font-weight: 700;
     /*1rem equals the font size of the html element, which for most browsers has a default value of 16px*/
     font-size: 1.25rem;
-    color: #412234;
+    color: #fffafd;
     /*remove underline for hyperlinks*/
     text-decoration: none;
 }
@@ -48,7 +48,7 @@ h1, h2, h3 {
 }
 
 .nav-links a {
-    color: #412234;
+    color: #fffafd;
     text-decoration: none;
     font-weight: 500;
 }
