@@ -22,3 +22,11 @@ button.btn-future {
 button.btn-future:hover {
     background-color: aqua;
 }
+
+.hi {
+    display: none;
+}
+
+div:hover .secret {
+    display: inline;
+}
