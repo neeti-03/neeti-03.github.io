@@ -19,6 +19,8 @@ a:visited {
     background-color: grey;
 }
 
+/*Display property to play with an element being displayed (inline) versus not (none)*/
+
 .secret {
     display: none;
 }
