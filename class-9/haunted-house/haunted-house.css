@@ -1,0 +1,19 @@
+/*Start with background images*/
+
+/*
+Need to update body {}
+background-image: 3 URLs
+background-position: 3 positions
+background-size: 3 sizes
+background-color: black
+background-repeat: 2 no-repeats
+*/
+
+body {
+  background-image: url("media/creepy-baby-doll.png"), url("media/haunted-house-unsplash.avif"), url("media//night-sky-unsplash.avif");
+  background-position: top left, top 50px right 100px, top;
+  background-size: 400px, 400px, cover;
+  background-color: black;
+  background-repeat: no-repeat, no-repeat;
+}
+

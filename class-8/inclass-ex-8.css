@@ -95,10 +95,6 @@ div.div-time:hover {
     background-color: rgb(255, 178, 36);
 }
 
-div.div-time:hover .sun {
-    transform: translateY(-130px);
-}
-
 div.sun{
     display: block;
     width: 20px;
@@ -108,4 +104,8 @@ div.sun{
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
+}
+
+div.div-time:hover .sun {
+    transform: translateY(-130px);
 }
